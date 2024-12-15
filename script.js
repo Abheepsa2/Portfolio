@@ -1,7 +1,7 @@
 function downloadCV() {
   const link = document.createElement("a");
-  link.href = "cv.pdf";
-  link.download = "cv.pdf";
+  link.href = "Abheepsa.pdf";
+  link.download = "Abheepsa.pdf";
   link.click();
 }
 
