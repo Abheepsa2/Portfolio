@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abheepsa Pradhan | Portfolio</title>
+    <link rel="icon" href="profile.jpg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-gray-600 p-4 sticky top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Abheepsa Pradhan</h1>
+
+            <!-- Mobile Menu Button -->
+            <div class="lg:hidden">
+                <button id="menuButton" class="text-white focus:outline-none">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+
+            <!-- Menu Links (Desktop) -->
+            <ul id="menuLinks" class="hidden lg:flex space-x-6">
+                <li><a href="#about" class="hover:text-blue-400">About</a></li>
+                <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+                <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+                <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+                <li><a href="certificate.html" class="hover:text-blue-400">Certificates</a></li>
+            </ul>
+
+            <!-- Mobile Dropdown Menu -->
+            <div id="mobileMenu" class="lg:hidden hidden absolute top-16 left-0 bg-gray-600 w-full p-4">
+                <ul class="flex flex-col space-y-4">
+                    <li><a href="#about" class="text-white hover:text-blue-400">About</a></li>
+                    <li><a href="#skills" class="text-white hover:text-blue-400">Skills</a></li>
+                    <li><a href="#projects" class="text-white hover:text-blue-400">Projects</a></li>
+                    <li><a href="#contact" class="text-white hover:text-blue-400">Contact</a></li>
+                    <li><a href="certificate.html" class="text-white hover:text-blue-400">Certificates</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- About Section -->
+        <section id="about" class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <di64>
+                    <img src="profile.jpg" alt="Profile Picture" class="rounded-full w-50 h-60 mx-auto">
+                </di64 <div class="md:col-span-2">
+                <p class="text-gray-300" style="font-size: larger;">
+                    
+Highly Motivated, enthusiastic and outgoing student with a strong commitment to learning and contributing to the advancement of knowledge in the field. Gaining practical experiences through college activities and volunteer work, while actively participating and networking with professional’s in the field.
+                </p>
+            </div>
+            </div>
+        </section>
+
+        <!-- Download Cv -->
+        <section class="mb-8">
+            <div class="flex items-center justify-between bg-gray-800 p-4 rounded-lg">
+                <span class="text-lg">Download my CV</span>
+                <span class="text-lg">
+
+                    <button onclick="downloadCV()"
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Download
+                    </button>
+                    &nbsp &nbsp
+                    <button onclick="window.location.href='cv.pdf';"
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        View
+                    </button>
+                </span>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Programming Languages -->
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Technical skills</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> React
+                        </li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i>Figma  </li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i>Adobe illustrator </li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Adobe photoshop</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> PHP</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> HTML/CSS</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> JavaScript</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> SQL</li>
+                    </ul>
+                </div>
+
+                <!-- Tools & Frameworks -->
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Soft skills</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Team Management</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Critical Thinking</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Leadership</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Communication Skills</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i>Active istening</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Interpersolan Skills</li>
+                    
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="bg-gray-800 p-6 rounded-lg" align="center">
+                <h3 class="text-xl font-bold mb-4">Interpersonal Skills</h3>
+                <ul class="space-y-2">
+                    <li>Team Collaboration</li>
+                    <li>Adaptability</li>
+                    <li>Analytical Thinking</li>
+                    <li>Time Management</li>
+                    <li>Self-Paced Learning</li>
+                    <li>Presentation Skills</li>
+                    <li>Manual Testing</li>
+                    <li>Debugging Expertise</li>
+                </ul>
+            </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                    <img src="ss.png" alt="HomeCare"
+                        class="rounded-t-lg object-cover w-full h-50">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">HomeCare Management system</h3>
+                        <p class="text-gray-300 mb-4">
+                            Developed a Web Application to make it easy for Patients with health issues those who are unable to visit the hospital and get proper Health Care. Here, Doctors and nurse provide their healthcare services in home setting in presence of their family members in their environment
+                        </p>
+                        <a href="https://github.com/Abheepsa2/Summer-Project" target="_blank"
+                            class="text-blue-500 hover:underline">
+                            View Code
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                    <img src="eco.png" alt="E-commerce website"
+                        class="rounded-t-lg object-cover w-full h-">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2"> E-commerce website </h3>
+                        <p class="text-gray-300 mb-4">
+                            E-commerce website for eco friendly product 
+                        </p>
+                        <a href="https://www.figma.com/proto/fW1XfjH34d43rD2gtselBG/eco-world?node-id=66-192&node-type=canvas&t=lQPNAV25FgelWKkO-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A413" target="_blank"
+                            class="text-blue-500 hover:underline">
+                            View Design file
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                    <img src="web.png" alt="E-commerce website"
+                        class="rounded-t-lg object-cover w-full h-50">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2"> E-commerce website </h3>
+                        <p class="text-gray-300 mb-4">
+                            Product page for for a e commerce website 
+                        </p>
+                        <a href="https://www.figma.com/proto/EJg8WARcrOkDL57OWSAhuX/Crafty-Happiness?node-id=9-16&p=f&t=OZ0D3jmTIKTBClK7-1&scaling=contain&content-scaling=fixed&page-id=0%3A1" target="_blank"
+                        class="text-blue-500 hover:underline">
+                        View Design file
+                    </a>
+                    </div>
+                </div>
+
+               
+               
+             
+              
+        
+        <!-- Contact Section -->
+        <section id="contact" class="mb-12 width:100% " >
+            <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+            <form action="https://formspree.io/f/mgvepegk" method="POST" class="bg-gray-800 p-6 rounded-lg">
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-4 center">
+                    <h1 class="center">Contact No: 9840052249</h1>
+                    <h1> Email Address : abheepsapradhan246@gmail.com</h1>
+                    <h1> Address : Maitidevi, Kathmandu </h1>
+                  
+                </div>
+               
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center bg-gray-800 p-4">
+        <div class="flex justify-center space-x-4">
+            <a href="https://github.com/Abheepsa2" class="text-gray-400 hover:text-white"><i
+                    data-feather="github"></i></a>
+            <a href="https://www.linkedin.com/in/abheepsa-pradhan/" class="text-blue-400 hover:text-blue"><i
+                    data-feather="linkedin"></i></a>
+            <a href="https://www.instagram.com/_abheepsa" class="text-pink-400 hover:text-pink"><i
+                    data-feather="instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
