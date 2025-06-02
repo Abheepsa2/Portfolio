@@ -240,7 +240,7 @@ body {
     background-color: #1e293b;
     border-radius: 15px;
     padding: 30px 30px;
-    width: 868px;
+    width: 880px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 
@@ -317,7 +317,7 @@ body {
     background-color: #1e293b;
     border-radius: 15px;
     padding: 25px 30px;
-    width: 400px;
+    width: 430px;
     gap:-10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
@@ -388,7 +388,7 @@ body {
   border-radius: 15px;
   padding: 20px;
   width: 100%;
-  max-width: 320px;
+  max-width: 350px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: border 0.3s ease;
 }
